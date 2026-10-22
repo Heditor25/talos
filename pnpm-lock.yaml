@@ -67,8 +67,8 @@ importers:
         specifier: 16.4.2
         version: 16.4.2(@babel/core@7.29.0(supports-color@10.2.2))(@opentelemetry/api@1.9.1)(@types/node@26.6.5)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)
       openai:
-        specifier: ^7.38.0
-        version: 7.38.0(undici@8.12.2)(zod@4.6.7)
+        specifier: ^7.39.0
+        version: 7.39.0(undici@8.12.2)(ws@8.18.3(bufferutil@4.1.0)(utf-8-validate@6.0.6))(zod@4.6.7)
       pg:
         specifier: ^8.23.1
         version: 8.23.1
@@ -5064,8 +5064,8 @@ packages:
   once@1.4.0:
     resolution: {integrity: sha512-lNaJgI+2Q5URQBkccEKHTQOPaXdUxnZZElQTZY0MFUAuaEqe1E+Nyvgdz/aIyNi6Z9MzO5dv1H8n58/GELp3+w==}
 
-  openai@7.38.0:
-    resolution: {integrity: sha512-Ef+YyIeoiisZLP/tV4F4/RieJAl4OEJTyJg6gV0AXOb0T9CDkvYJoU224OY5CTmQ4zDJeku4jEHjz2b3/6Ndhw==}
+  openai@7.39.0:
+    resolution: {integrity: sha512-iEA9ndbrj32vhYZwJg2v9BQVuztGUOb2SBQU16ZcWNkQHWEBjtarxjqR9c6d5PbWMG0Eyfhk66OZ0iJ8XpFjyw==}
     engines: {node: '>=22.0.0'}
     peerDependencies:
       '@aws-sdk/credential-provider-node': '>=3.972.0 <4'
@@ -12049,9 +12049,10 @@ snapshots:
     dependencies:
       wrappy: 1.0.2
 
-  openai@7.38.0(undici@8.12.2)(zod@4.6.7):
+  openai@7.39.0(undici@8.12.2)(ws@8.18.3(bufferutil@4.1.0)(utf-8-validate@6.0.6))(zod@4.6.7):
     optionalDependencies:
       undici: 8.12.2
+      ws: 8.18.3(bufferutil@4.1.0)(utf-8-validate@6.0.6)
       zod: 4.6.7
 
   openapi-typescript@7.13.0(typescript@7.0.2):
